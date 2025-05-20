@@ -9,12 +9,22 @@ body {
     margin: 20px auto;
   }
   
+    #position {
+    border-bottom:white;
+    margin-top: 10px;
+  }
+
   .left-column {
     background: #20354b;
     color: white;
     padding: 20px;
     width: 30%;
   }
+ 
+  .left-header {
+    color: white;
+  }
+
   
   .right-column {
     padding: 20px;
@@ -46,4 +56,8 @@ body {
   ul li {
     margin-bottom: 5px;
   }
-  
+    .profile-photo {
+    width: 100%;
+    border-radius: 50%;
+    margin-bottom: 20px;
+  }
